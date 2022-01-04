@@ -816,7 +816,7 @@ textarea#content {
         margin-top: 10px;
     }
 
-    .product-info p.price {
+    .product-info p.description {
         font-size: 18px;
     }
 
@@ -867,7 +867,7 @@ textarea#content {
         width: 165px;
     }
 
-    .checkout-item .price {
+    .checkout-item .description {
         display: inline-block;
         width: 115px;
     }

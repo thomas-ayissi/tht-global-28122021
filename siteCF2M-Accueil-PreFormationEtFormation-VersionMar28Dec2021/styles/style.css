@@ -38,7 +38,7 @@ header {
 	font-size: 14px;
 }
 /* Texte de bienvenur*/
-#messageBienvenue {
+#welcome {
 	font-family: 'Montserrat', sans-serif;
 	clear: both;
 	background-color: rgba(246,246,246,1.00);
@@ -67,7 +67,7 @@ header {
 	height: 784px;
 }
 /* Contenu principal du site */
-#content .contenuPrincipal {
+#content .mainContent {
 	float: left;
 	width: 70%;
 	text-align: center;
@@ -105,19 +105,19 @@ header {
 	padding-top: 12px;
 }
 /* Lignes affichant les articles à lire */
-#content .contenuPrincipal .articlesEnLigne {
+#content .mainContent .productRow {
 	overflow: auto;
 	color: rgba(146,146,146,1.00);
 }
 /* Détails à propos de chaque article/texte */
-.contenuPrincipal .articlesEnLigne .descriptionArticle {
+.mainContent .productRow .productInfo {
 	float: left;
 	padding-left: 5%;
 	padding-right: 5%;
 	width: 22%;
 }
 /* Titre de chaque article/texte */
-.articlesEnLigne .descriptionArticle .titre {
+.productRow .productInfo .description {
 	font-family: 'Montserrat', sans-serif;
 	color: rgba(146,146,146,1.00);
 	font-size: 22px;
@@ -125,7 +125,7 @@ header {
 	top: -20px;
 }
 /* Texte description de chaque article/texte*/
-.articlesEnLigne .descriptionArticle .descriptionArticle {
+.productRow .productInfo .productContent {
 	position: relative;
 	top: -37px;
 	font-size: 14px;
@@ -136,7 +136,7 @@ header {
 	white-space: pre-wrap;
 }
 /* Boutton de lecture pour afficher tout l'article/texte */
-.articlesEnLigne .descriptionArticle .buttonPourLireArticle {
+.productRow .productInfo .buyButton {
 	position: relative;
 	top: -48px;
 	width: 84%;
@@ -180,7 +180,7 @@ footer div a {
 	text-align: center;
 }
 /* Images des articles/textes */
-.descriptionArticle div img {
+.productInfo div img {
 	width: 100%;
 }
 /*Liens dans la sidebar */
@@ -205,23 +205,27 @@ footer div a {
 	margin-bottom: 29px;
 }
 /* Container pour les liens dans le pied de page */
-footer .lienspieddepage {
+footer .footerLinks {
 	margin-top: -15px;
 }
 
 /* Media query pour les tablettes*/
 @media screen and (max-width:700px) {
 
-	/* Logo placeholder*/
+	/* Logo */
 	#mainWrapper header #logo {
 		width: 10%;
 		/*text-align: center;*/
 	}
-
 /* chanp de recherche dans la sidebar */
-#content .sidebar #recherche {
+#content .sidebar #search {
 	display: none;
 }
+
+	/* label champ  de recherche dans la sidebar */
+	#content .sidebar #resume {
+		display: none;
+	}
 /* sidebar */
 #content .sidebar {
 	float: none;
@@ -278,30 +282,31 @@ footer .lienspieddepage {
 	width: 95%;
 	padding-top: 0px;
 }
-/* banière contenant le messageBienvenue */
-#mainWrapper #messageBienvenue p {
+/* bannière contenant le welcome */
+#mainWrapper #welcome p {
 	font-size: small;
 }
 /* région de la page contenant le contenu principal */
-#mainWrapper #content .contenuPrincipal {
+#mainWrapper #content .mainContent {
 	overflow: hidden;
 	width: 95%;
 	margin-top: 40px;
 }
 /* Titres des articles/textes */
-.articlesEnLigne .descriptionArticle .titre {
-	font-size: 19px;
+	.productRow .productInfo .description {
+		font-size: 19px;
 }
 /* Description des articles/textes*/
-.articlesEnLigne .descriptionArticle .descriptionArticle {
-	font-size: 16px;
+.productRow .productInfo .productContent {
+		font-size: 16px;
 }
+
 /* Boutton pour voir les articles/textes */
-.articlesEnLigne .descriptionArticle .buttonPourLireArticle {
-	font-size: 15px;
+.productRow .productInfo .buyButton {
+		font-size: 15px;
 }
 /* Container des liens du pied de page */
-#mainWrapper footer .lienspieddepage {
+#mainWrapper footer .footerLinks {
 	float: none;
 	width: 100%;
 	position: relative;
@@ -318,7 +323,7 @@ footer .lienspieddepage {
 	font-size: 15px;
 }
 /* Liens dans le pied de page */
-.lienspieddepage p a {
+.footerLinks p a {
 	padding-top: 0px;
 	padding-bottom: 0px;
 	display: inline;
@@ -335,11 +340,11 @@ header #headerLinks a {
 	padding-right: 30px;
 }
 /* Message de bienvenue */
-#mainWrapper #messageBienvenue {
+#mainWrapper #welcome {
 	padding-left: 22%;
 }
 /* Paragraphes dans le pied de page */
-footer .lienspieddepage p {
+footer .footerLinks p {
 	display: inline;
 }
 }
@@ -366,7 +371,7 @@ header #headerLinks a {
 	padding-left: 0px;
 }
 /* message de bienvenue */
-#mainWrapper #messageBienvenue {
+#mainWrapper #welcome {
 	padding-left: 0px;
 	text-align: center;
 }
@@ -382,7 +387,7 @@ header #headerLinks a {
 	display: block;
 }
 /* description des articles/textes */
-.contenuPrincipal .articlesEnLigne .descriptionArticle {
+.mainContent .productRow .productContent {
 	width: 100%;
 	display: block;
 	padding-left: 0px;
@@ -403,11 +408,11 @@ header #headerLinks a {
 	padding-left: 24%;
 }
 /* Container des liens du pied de page*/
-#mainWrapper footer .lienspieddepage {
+#mainWrapper footer .footerLinks {
 	padding-left: 8%;
 }
 /* contenu principal excluant la sidebar */
-#mainwrapper #content .contenuPrincipal {
+#mainwrapper #content .mainContent{
 	margin-top: -81px;
 	text-align: center;
 	width: 100%;
