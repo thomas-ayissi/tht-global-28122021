@@ -1,0 +1,421 @@
+@charset "utf-8";
+/*Styles Globaux */
+a:hover {
+	color: rgba(255,255,255,1.00);
+}
+/*header*/
+header {
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(146,146,146,1.00);
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+}
+/* Logo placeholder*/
+#logo {
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 15%;
+	text-align: center;
+	color: rgba(255,255,255,1.00);
+	background-color: rgba(190,190,190,1.00);
+}
+/* div pour liens du header */
+#headerLinks {
+	float: left;
+	width: calc( 100% - 139px );
+	text-align: right;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: rgba(255,255,255,1.00);
+}
+/* Liens dans le header */
+#headerLinks a {
+	text-decoration: none;
+	color: rgba(146,146,146,1.00);
+	padding-left: 66px;
+	font-size: 14px;
+}
+/* Texte de bienvenur*/
+#welcome {
+	font-family: 'Montserrat', sans-serif;
+	clear: both;
+	background-color: rgba(246,246,246,1.00);
+	color: rgba(146,146,146,1.00);
+	padding-left: 115px;
+	padding-top: 57px;
+	padding-bottom: 57px;
+}
+/* Contenu principal du site */
+#content {
+	clear: both;
+	overflow: auto;
+	padding-top: 29px;
+}
+/* Sidebar */
+#content .sidebar {
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(146,146,146,1.00);
+	float: left;
+	width: 20%;
+	padding-left: 3%;
+	padding-right: 3%;
+	text-align: center;
+	background-color: rgba(246,246,246,1.00);
+	padding-top: 36px;
+	height: 784px;
+}
+/* Contenu principal du site */
+#content .mainContent {
+	float: left;
+	width: 70%;
+	text-align: center;
+	padding-left: 4%;
+}
+/*Propriétés de la menubar (barre de menu) pour le menus se trouvant dans la sidebar */
+#content .sidebar #menubar {
+	text-align: left;
+	color: rgba(146,146,146,1.00);
+	position: relative;
+	left: 0%;
+}
+/* Champ de recherche dans la sidebar */
+#content .sidebar #recherche {
+	width: 100%;
+	border-radius: 0px;
+	height: 42px;
+	text-align: center;
+	color: rgba(208,207,207,1.00);
+	font-size: 14px;
+	;
+	margin-bottom: 21px;
+}
+/* Contenu de toute la page */
+#mainWrapper {
+	width: 80%;
+	padding-left: 10%;
+}
+/*éléments du menu */
+.menu ul li {
+	list-style-type: none;
+	font-size: x-large;
+	position: relative;
+	left: -35px;
+	padding-top: 12px;
+}
+/* Lignes affichant les articles à lire */
+#content .mainContent .productRow {
+	overflow: auto;
+	color: rgba(146,146,146,1.00);
+}
+/* Détails à propos de chaque article/texte */
+.mainContent .productRow .productInfo {
+	float: left;
+	padding-left: 5%;
+	padding-right: 5%;
+	width: 22%;
+}
+/* Titre de chaque article/texte */
+.productRow .productInfo .description {
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(146,146,146,1.00);
+	font-size: 22px;
+	position: relative;
+	top: -20px;
+}
+/* Texte description de chaque article/texte*/
+.productRow .productInfo .productContent {
+	position: relative;
+	top: -37px;
+	font-size: 14px;
+	font-family: source-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	color: rgba(146,146,146,1.00);
+	white-space: pre-wrap;
+}
+/* Boutton de lecture pour afficher tout l'article/texte */
+.productRow .productInfo .buyButton {
+	position: relative;
+	top: -48px;
+	width: 84%;
+	background-color: rgba(208,207,207,1.00);
+	height: 35px;
+	color: rgba(255,255,255,1.00);
+	border-style: none;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-top: 8px;
+}
+/* Pied de page*/
+#mainWrapper footer {
+	clear: both;
+	overflow: auto;
+	background-color: rgba(208,207,207,1.00);
+	font-family: source-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	line-height: 1.8;
+	padding-top: 22px;
+	padding-left: 22px;
+	text-align: center;
+	padding-bottom: 22px;
+	padding-right: 22px;
+}
+/*Contenu de chaque partie du pied de page */
+#mainWrapper footer div {
+	width: 27%;
+	float: left;
+	padding-left: 4%;
+	padding-right: 2%;
+	color: rgba(255,255,255,1.00);
+	text-align: justify;
+}
+/* Liens dans le pied de page */
+footer div a {
+	color: rgba(146,146,146,1.00);
+	display: block;
+	text-decoration: none;
+	text-align: center;
+}
+/* Images des articles/textes */
+.productInfo div img {
+	width: 100%;
+}
+/*Liens dans la sidebar */
+.sidebar #menubar .menu ul li a {
+	color: rgba(146,146,146,1.00);
+	text-decoration: none;
+}
+.sidebar #menubar .menu ul li a:hover {
+	color: rgba(107,97,97,1.00);
+	text-decoration: none;
+}
+/* Titres des menus dans la sidebar */
+#menubar .menu h2 {
+	font-size: 14px;
+}
+/*Liens sous les menus dans la sidebar */
+#menubar .menu ul li a {
+	font-size: 14px;
+}
+/* Menus dans la sidebar */
+.sidebar #menubar .menu {
+	margin-bottom: 29px;
+}
+/* Container pour les liens dans le pied de page */
+footer .footerLinks {
+	margin-top: -15px;
+}
+
+/* Media query pour les tablettes*/
+@media screen and (max-width:700px) {
+
+	/* Logo */
+	#mainWrapper header #logo {
+		width: 10%;
+		/*text-align: center;*/
+	}
+/* chanp de recherche dans la sidebar */
+#content .sidebar #search {
+	display: none;
+}
+
+	/* label champ  de recherche dans la sidebar */
+	#content .sidebar #resume {
+		display: none;
+	}
+/* sidebar */
+#content .sidebar {
+	float: none;
+	width: 100%;
+	height: auto;
+	overflow: auto;
+	padding-left: 12%;
+	padding-top: 0px;
+}
+/* séparateurs horizontaux de la sidebar */
+#content .sidebar hr {
+	display: none;
+}
+/* sidebar et contenu principal de la page */
+#content {
+	position: relative;
+	top: -22px;
+	width: 100%;
+	overflow: hidden;
+}
+/* titres des menus dans la sidebar */
+#menubar .menu h2 {
+	display: inline;
+	font-size: medium;
+	padding-right: 6%;
+}
+/* liste non-ordonnée de liens */
+#menubar .menu ul {
+	display: inline;
+}
+/* éléments de la liste */
+#menubar .menu ul li {
+	display: inline;
+	font-size: medium;
+	padding-left: 0%;
+	padding-right: 3%;
+}
+/* liens qui doivent être cachés dans la vue sur les tablettes */
+.sidebar #menubar .menu ul .notimp {
+	display: none;
+}
+/* menus dans la sidebar */
+.sidebar #menubar .menu {
+	width: 100%;
+	text-align: center;
+	position: relative;
+	top: 16px;
+}
+/* barre de menu dans la sidebar */
+#content .sidebar #menubar {
+	position: relative;
+	left: -7%;
+	overflow: hidden;
+	width: 95%;
+	padding-top: 0px;
+}
+/* bannière contenant le welcome */
+#mainWrapper #welcome p {
+	font-size: small;
+}
+/* région de la page contenant le contenu principal */
+#mainWrapper #content .mainContent {
+	overflow: hidden;
+	width: 95%;
+	margin-top: 40px;
+}
+/* Titres des articles/textes */
+	.productRow .productInfo .description {
+		font-size: 19px;
+}
+/* Description des articles/textes*/
+.productRow .productInfo .productContent {
+		font-size: 16px;
+}
+
+/* Boutton pour voir les articles/textes */
+.productRow .productInfo .buyButton {
+		font-size: 15px;
+}
+/* Container des liens du pied de page */
+#mainWrapper footer .footerLinks {
+	float: none;
+	width: 100%;
+	position: relative;
+	top: 17px;
+	clear: both;
+	text-align: center;
+	left: 0%;
+	padding-bottom: 19px;
+}
+/* Container pour chaque division du pied de page */
+#mainWrapper footer div {
+	width: 44%;
+	text-align: justify;
+	font-size: 15px;
+}
+/* Liens dans le pied de page */
+.footerLinks p a {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	display: inline;
+	padding-right: 35px;
+}
+/* régions du pieds de page */
+#mainWrapper footer {
+	padding-left: 16px;
+	overflow: hidden;
+}
+/* Liens dans le header */
+header #headerLinks a {
+	padding-left: 0px;
+	padding-right: 30px;
+}
+/* Message de bienvenue */
+#mainWrapper #welcome {
+	padding-left: 22%;
+}
+/* Paragraphes dans le pied de page */
+footer .footerLinks p {
+	display: inline;
+}
+}
+
+/*media query pour les petits écrans */
+@media screen and (max-width:480px) {
+
+/*Container pour les liens dans le header */
+#mainWrapper header #headerLinks {
+	width: 100%;
+	text-align: center;
+	background-color: rgba(190,190,190,1.00);
+	padding-bottom: 21px;
+}
+/* Logo placeholder*/
+#mainWrapper header #logo {
+	width: 8%;
+	text-align: center;
+}
+/* Liens dans le header */
+header #headerLinks a {
+	text-align: center;
+	padding-right: 15px;
+	padding-left: 0px;
+}
+/* message de bienvenue */
+#mainWrapper #welcome {
+	padding-left: 0px;
+	text-align: center;
+}
+/* barre de menu dans la sidebar */
+#content .sidebar #menubar {
+	position: relative;
+	left: -8%;
+	text-align: center;
+}
+/* Titres des menus dans la sidebar */
+#menubar .menu h2 {
+	width: 100%;
+	display: block;
+}
+/* description des articles/textes */
+.mainContent .productRow .productContent {
+	width: 100%;
+	display: block;
+	padding-left: 0px;
+	padding-right: 0px;
+	position: relative;
+	left: -2%;
+}
+#mainWrapper footer div {
+	width: 100%;
+	margin-left: -16px;
+	text-align: justify;
+	padding-bottom: 16px;
+	overflow: auto;
+}
+/* liste non-ordonnée des éléments du menu */
+.menu ul {
+	position: relative;
+	padding-left: 24%;
+}
+/* Container des liens du pied de page*/
+#mainWrapper footer .footerLinks {
+	padding-left: 8%;
+}
+/* contenu principal excluant la sidebar */
+#mainwrapper #content .mainContent{
+	margin-top: -81px;
+	text-align: center;
+	width: 100%;
+	padding-left: 0px;
+}
+}

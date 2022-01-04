@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* Global Styles */
+a:hover {
+  color: rgba(255,255,255,1.00);
+}
+
+  .haut {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+
+  .titrehaut{
+        font-size: 1.0em;
+        font-weight: bold;
+        color: rgb(111, 117, 119)
+  }
+  
+  .navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0; 
+    background: rgb(158, 166, 168);
+  }
+  
+
+  .navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: rgb(244, 247, 248);
+  }
+  
+
+  .navigation a:hover {
+    background: rgb(222, 49, 49);
+  }
+  
+
+
+  .corps {
+    background-color: rgb(255,250,250);
+  }
+
+
+  header {
+    background-color: rgb(245,245,220);
+
+  }
+
+  .listeFilms{
+       list-style-type: none;
+  }
+  
+  .pied {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    list-style: none;
+    margin: 0; 
+    background: rgb(158, 166, 168);
+  }
+  
+
+  .pied a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: rgb(244, 247, 248);
+  }
+
+
+  .pied a:hover {
+    background: rgb(222, 49, 49);
+  }
+
+
+
+  @media all and (max-width: 800px) {
+    .navigation {
+      justify-content: space-around;
+    }
+  }
+  
+
+  @media all and (max-width: 600px) {
+    .navigation {
+      flex-flow: column wrap;
+      padding: 0;
+    }
+    .navigation a { 
+      text-align: center; 
+      padding: 10px;
+      border-top: 1px solid rgb(48, 65, 73); 
+      border-bottom: 1px solid rgb(48, 65, 73); 
+    }
+    .navigation li:last-of-type a {
+      border-bottom: none;
+    }
+  }
+  
+  
