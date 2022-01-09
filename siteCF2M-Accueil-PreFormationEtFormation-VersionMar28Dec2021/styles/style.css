@@ -1,5 +1,5 @@
 @charset "utf-8";
-/*Styles Globaux */
+/*###STYLES GLOBAUX###*/
 a:hover {
 	color: rgba(255,255,255,1.00);
 }
@@ -37,7 +37,7 @@ header {
 	padding-left: 66px;
 	font-size: 14px;
 }
-/* Texte de bienvenur*/
+/* Texte de bienvenue*/
 #welcome {
 	font-family: 'Montserrat', sans-serif;
 	clear: both;
@@ -73,6 +73,14 @@ header {
 	text-align: center;
 	padding-left: 4%;
 }
+
+/*###DIM9JAN2022####Liens dans les cartes dans le corps de la page*/
+.mainContent .productRow .productInfo #lienCliquable  {
+	color: rgba(107,97,97,1.00);
+	text-decoration: none;
+}
+
+
 /*Propriétés de la menubar (barre de menu) pour le menus se trouvant dans la sidebar */
 #content .sidebar #menubar {
 	text-align: left;
@@ -209,7 +217,7 @@ footer .footerLinks {
 	margin-top: -15px;
 }
 
-/* Media query pour les tablettes*/
+/*###MEDIA QUERY POUR LES TABLETTES###*/
 @media screen and (max-width:700px) {
 
 	/* Logo */
@@ -305,6 +313,13 @@ footer .footerLinks {
 .productRow .productInfo .buyButton {
 		font-size: 15px;
 }
+
+	/*###DIM9JAN2022####Liens dans les cartes dans le corps de la page*/
+	.mainContent .productRow .productInfo #lienCliquable {
+		color: rgba(107,97,97,1.00);
+		text-decoration: none;
+	}
+
 /* Container des liens du pied de page */
 #mainWrapper footer .footerLinks {
 	float: none;
@@ -349,7 +364,7 @@ footer .footerLinks p {
 }
 }
 
-/*media query pour les petits écrans */
+/*###MEDIA QUERY POUR PETITS ECRANS###*/
 @media screen and (max-width:480px) {
 
 /*Container pour les liens dans le header */
@@ -395,6 +410,14 @@ header #headerLinks a {
 	position: relative;
 	left: -2%;
 }
+
+	/*###DIM9JAN2022####Liens dans les cartes dans le corps de la page*/
+	.mainContent .productRow .productInfo #lienCliquable a {
+		color: rgba(107,97,97,1.00);
+		text-decoration: none;
+	}
+
+
 #mainWrapper footer div {
 	width: 100%;
 	margin-left: -16px;
