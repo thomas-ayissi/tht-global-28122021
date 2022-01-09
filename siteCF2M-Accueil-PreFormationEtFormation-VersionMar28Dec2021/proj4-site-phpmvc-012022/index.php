@@ -17,7 +17,7 @@
 Contrôleur frontal
 */
 // chargement des dépendances
-require_once "data/config.php"; // configuration
+require_once "controler/config.php"; // configuration
 // si on a un fichier de fonctions on le charge ici
 // si on a besoin de se connecter à une base de donnée, on se connecte ici
 
@@ -26,7 +26,7 @@ require_once "data/config.php"; // configuration
 //Mes includes étaient écrits avec des parenthèses.
 //Vérifier et harmoniser la nomenclature
 
-// Routeur (identifier la signification de la ligne isset et
+// Routeur (identifier la signification de la ligne isset et)
 // du pg qu il faut get. La résolution du problème peut venir de cet examen.
 
 $pg=['vue/homepage.php'];
@@ -36,27 +36,27 @@ if(!Isset($_GET['pg'])){
 }else{
     // pas sur l'accueil //variable pg signalée indefinie
     switch($_GET['pg']){
-        case "gallery":
+        case "galerie":
             // import de la galerie
             include_once "vue/galerie.php";
             break;
-        case "liaisons":
-            // import des lens
+        case "liens":
+            // import des liens
             include_once "vue/liens.php";
             break;
-        case "tutorials":
+        case "tutoriels":
             // import de la page des tutoriels
             include_once "vue/tutoriels.php";
             break;
-        case "contacts":
+        case "contact":
             // import de la page de contact
             include_once "vue/contact.php";
             break;
-        case "administration":
+        case "admin":
             // import de l'admin
             include_once "vue/admin.php";
             break;
-        case "CV":
+        case "cv":
             // import du cv
             include_once "vue/cv.php";
             break;

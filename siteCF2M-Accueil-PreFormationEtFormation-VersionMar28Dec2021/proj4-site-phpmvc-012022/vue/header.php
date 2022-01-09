@@ -8,12 +8,12 @@
          <h3></h3>
         <ul>
             <li><a href="">Accueil</a></li>
-            <li><a href="?pg=gallery">Galerie</a></li>
-            <li><a href="?pg=liaisons">Liens</a></li>
-            <li><a href="?pg=tutorials">Tutoriels</a></li>
-            <li><a href="?pg=contacts">Contact</a></li>
-            <li><a href="?pg=administration">Admin</a></li>
-            <li><a href="?pg=CV">CV</a></li>
+            <li><a href="?pg=galerie">Galerie</a></li>
+            <li><a href="?pg=liens">Liens</a></li>
+            <li><a href="?pg=tutoriels">Tutoriels</a></li>
+            <li><a href="?pg=contact">Contact</a></li>
+            <li><a href="?pg=admin">Admin</a></li>
+            <li><a href="?pg=cv">CV</a></li>
         </ul>
     </div>
 </nav>
