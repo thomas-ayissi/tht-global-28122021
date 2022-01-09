@@ -52,6 +52,7 @@ header {
 	clear: both;
 	overflow: auto;
 	padding-top: 29px;
+	                   /*##EDIT DIM9JAN2022#*/
 }
 /* Sidebar */
 #content .sidebar {
@@ -123,6 +124,7 @@ header {
 	padding-left: 5%;
 	padding-right: 5%;
 	width: 22%;
+	white-space: pre-wrap;
 }
 /* Titre de chaque article/texte */
 .productRow .productInfo .description {
@@ -402,7 +404,7 @@ header #headerLinks a {
 	display: block;
 }
 /* description des articles/textes */
-.mainContent .productRow .productContent {
+.mainContent .productRow .productInfo  {
 	width: 100%;
 	display: block;
 	padding-left: 0px;
@@ -410,6 +412,7 @@ header #headerLinks a {
 	position: relative;
 	left: -2%;
 }
+
 
 	/*###DIM9JAN2022####Liens dans les cartes dans le corps de la page*/
 	.mainContent .productRow .productInfo #lienCliquable a {
