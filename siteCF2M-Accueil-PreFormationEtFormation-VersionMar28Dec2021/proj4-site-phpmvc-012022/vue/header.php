@@ -1,6 +1,6 @@
 <br>
 <br>
-<div id="logo"><img src="../decor/logo_thomas.png" alt="logo_thomas"></div>
+<div id="logo"><img src="logo_thomas.png" alt="logo_thomas"></div>
 <br>
 <br>
 <nav id="header">

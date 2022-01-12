@@ -1,7 +1,24 @@
 <?php
 // variables.php
 
-$users = [
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*$users = [
     [
         'full_name' => 'Admin',
         'email' => 'admin@thomasayissi.tech',
@@ -144,4 +161,4 @@ ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita
     ],
 
 
-];
+];*/

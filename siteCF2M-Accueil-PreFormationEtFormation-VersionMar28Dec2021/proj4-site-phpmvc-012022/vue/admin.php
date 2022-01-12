@@ -22,8 +22,8 @@
 
 
 
-
-    <?php
+  /*Ajout de cet include en espérant régler le problème des variables undefined sans succes*/
+    <?php include include_once "../data/config.php"
     /* Program: Login_reg.php
     * Desc:    Main application script for the User Login
     *          application. It provides two options: (1) login
@@ -31,12 +31,20 @@
     *          a new user name. User Names and passwords are
     *          stored in a MySQL database.
     */
-    session_start();	                                          #9
+
+    session_start();
+    include('config.php');
+    $user_name = $_POST['user_name'];
+    $passwd = $_POST['password'];
+
+
+
+
+    #9
     switch (@$_POST['Button'])	                               #10
     {
         case "Login":	                                          #12
-            include("dbstuff.inc");	                              #13
-            $cxn = mysqli_connect($host,$user,$passwd,$dbname)
+            $cxn = mysqli_connect($host="thomasayissi.tech/sama_phpmyadmin" ,$user="xscy8035_khabaancoumba7208456" ,$passwd="o1nJMV1m7tP;" ,$dbname="xscy8035_base_php_2021" )
             or die("Query died: connect");              	#15
             $sql = "SELECT user_name FROM Customer
     WHERE user_name='$_POST[fusername]'";
