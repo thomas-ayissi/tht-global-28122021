@@ -44,7 +44,7 @@
     switch (@$_POST['Button'])	                               #10
     {
         case "Login":	                                          #12
-            $cxn = mysqli_connect($host="thomasayissi.tech/sama_phpmyadmin" ,$user="xscy8035_khabaancoumba7208456" ,$passwd="o1nJMV1m7tP;" ,$dbname="xscy8035_base_php_2021" )
+            $cxn = mysqli_connect($host="" ,$user="" ,$passwd="" ,$dbname="" )
             or die("Query died: connect");              	#15
             $sql = "SELECT user_name FROM Customer
     WHERE user_name='$_POST[fusername]'";

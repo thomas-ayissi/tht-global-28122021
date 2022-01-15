@@ -69,6 +69,7 @@ if(!Isset($_GET['pg'])){
 //    return $pg;
 }
 // si on fermer notre connexion, on le fait ici
+/*mysqli_close($dbConnect); Variable à définir*/
 ?>
 
 </body>

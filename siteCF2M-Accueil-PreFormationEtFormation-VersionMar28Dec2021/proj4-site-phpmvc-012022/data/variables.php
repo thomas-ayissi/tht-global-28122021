@@ -21,17 +21,17 @@
 /*$users = [
     [
         'full_name' => 'Admin',
-        'email' => 'admin@thomasayissi.tech',
+        'email' => ',
         'theme' => 'général',
     ],
     [
         'full_name' => 'Postmaster',
-        'email' => 'contact@thomasayissi.tech',
+        'email' => '',
         'theme' => 'général',
     ],
     [
         'full_name' => 'Postmaster2',
-        'email' => 'contact@thomasayissi.tech',
+        'email' => '',
         'theme' => 'général',
     ],
 ];
@@ -92,7 +92,7 @@ ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita
    doloribus asperiores repellat."</p>
 
 ',
-        'author' => 'admin@thomasayissi.tech',
+        'author' => '',
         'is_enabled' => true,
 
     ],
@@ -100,7 +100,7 @@ ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita
     [
         'title' => 'Galerie',
         'texte' => '',
-        'author' => 'contact@thomasayissi.tech',
+        'author' => '',
         'is_enabled' => true,
 
     ],
@@ -110,7 +110,7 @@ ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita
     [
         'title' => 'Liens',
         'texte' => '',
-        'author' => 'contact@thomasayissi.tech',
+        'author' => '',
         'is_enabled' => false,
 
     ],
@@ -119,7 +119,7 @@ ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita
     [
         'title' => 'Tutoriels',
         'texte' => '',
-        'author' => 'admin@thomasayissi.tech',
+        'author' => '',
         'is_enabled' => false,
 
     ],
@@ -128,7 +128,7 @@ ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita
     [
         'title' => 'Contact',
         'texte' => '',
-        'author' => 'contact@thomasayissi.tech',
+        'author' => '',
         'is_enabled' => false,
 
     ],
@@ -137,7 +137,7 @@ ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita
     [
         'title' => 'Accès admin',
         'texte' => '',
-        'author' => 'contact@thomasayissi.tech',
+        'author' => '',
         'is_enabled' => false,
 
     ],
@@ -146,7 +146,7 @@ ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita
     [
         'title' => 'CV',
         'texte' => '',
-        'author' => 'contact@thomasayissi.tech',
+        'author' => '',
         'is_enabled' => false,
 
     ],
@@ -155,7 +155,7 @@ ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita
     [
         'title' => 'Error404',
         'texte' => '',
-        'author' => 'contact@thomasayissi.tech',
+        'author' => '',
         'is_enabled' => false,
 
     ],
