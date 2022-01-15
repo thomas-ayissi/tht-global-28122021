@@ -1,6 +1,10 @@
 
 <!-- Bootstrap -->
-<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+<link href="../controler/decor/pourgalerie/css/bootstrap-4.4.1.css" rel="stylesheet">
+<br>
+<br>
+<br>
+<br>
 <br>
 <br>
 <div id="logo"><img src="logo_thomas.png" alt="logo_thomas"></div>

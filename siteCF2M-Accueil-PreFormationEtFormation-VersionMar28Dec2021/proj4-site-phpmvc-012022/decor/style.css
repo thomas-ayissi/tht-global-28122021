@@ -82,6 +82,12 @@ h1 {
 
 /* pour les écrans intermédiaires*/
 @media screen and (min-width: 600px) and (max-width:1024px) {
+      /* liens qui doivent être cachés dans la vue sur les tablettes */
+      #header #menu .navbar-nav ul #notimp {
+            display: none;
+      }
+
+
 
 }
 
@@ -89,4 +95,12 @@ h1 {
 /* pour les grands écrans */
 @media screen and (min-width: 600px) and (max-width:1024px) {
 
+      /* liens qui doivent être cachés dans la vue sur les grands écrans */
+      #header #menu .navbar-nav ul #notimp {
+            display: none;
+      }
+
+
+
 }
+

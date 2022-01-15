@@ -1,25 +1,13 @@
-<!-- index.php -->
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accueil Portfolio Thomas AYISSI</title>
-    <link rel="stylesheet" href="decor/style.css" >
-</head>
 
-<body id="global">
-<div class="container">
-        <div class="row text-center">
-            <div class="col-md-4 pb-1 pb-md-0">
-
-<?php
+<body>
+<div id="mainwrapper">
+    <header>
+  <?php
 /*
 Contrôleur frontal
 */
 // chargement des dépendances
-require_once "controler/config.php"; // configuration
+require_once "config.php"; // configuration
 // si on a un fichier de fonctions on le charge ici
 // si on a besoin de se connecter à une base de donnée, on se connecte ici
 
@@ -30,50 +18,49 @@ require_once "controler/config.php"; // configuration
 
 // Routeur (identifier la signification de la ligne isset et)
 // du pg qu il faut get. La résolution du problème peut venir de cet examen.
-
-$pg=['vue/homepage.php'];
+  // UPDATE SAM 15 JAN 2022 - ancienne valeur ligne ci-dessous $pg=['vue/homepage.php'];
+$pg=['../vue/homepage.php'];
 if(!Isset($_GET['pg'])){
     // chargement accueil
     //DIM9JAN2022 - Suppression de tous les "once" dans les include. Car cela ne semble pa logique. Une page peut être appelée plein de fois. Inutile de la charger "once"
-    include "vue/homepage.php";
+    include "../vues/homepage.php";
 }else{
     // pas sur l'accueil //variable pg signalée indefinie
     switch($_GET['pg']){
         case "galerie":
             // import de la galerie
-            include "vue/galerie.php";
+            include "../vues/galerie.php";
             break;
         case "liens":
             // import des liens
-            include "vue/liens.php";
+            include "../vues/liens.php";
             break;
         case "tutoriels":
             // import de la page des tutoriels
-            include "vue/tutoriels.php";
+            include "../vues/tutoriels.php";
             break;
         case "contact":
             // import de la page de contact
-            include "vue/contact.php";
+            include "../vues/contact.php";
             break;
         case "admin":
             // import de l'admin
-            include "vue/admin.php";
+            include "../vues/admin.php";
             break;
         case "cv":
             // import du cv
-            include "vue/cv.php";
+            include "../vues/cv.php";
             break;
 
         default:
             // chargement de l'accueil
-            include "vue/homepage.php";
+            include "../vues/homepage.php";
     }
 //    return $pg;
 }
 // si on fermer notre connexion, on le fait ici
 /*mysqli_close($dbConnect); Variable à définir*/
 ?>
-            </div>
-              </div>
+
 </body>
 </html>

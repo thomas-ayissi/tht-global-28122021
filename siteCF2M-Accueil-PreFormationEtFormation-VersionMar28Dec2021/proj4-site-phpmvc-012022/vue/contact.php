@@ -31,7 +31,7 @@ endif;
 <body id="global">
 <div class="container">
 
-<!--Fake Email à utiliser :  ambles_06_oddball@icloud.com -->
+<!--Fake Email à utiliser :  ambles_06_oddball@icloud.com UPDATE Sam 15 Jan 2022 - Utiliser plutot contact@thomasayissi.tech-->
 
 
     <!-- inclusion de l entête du site -->

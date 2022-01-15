@@ -7,7 +7,7 @@
 include("functions.inc");	                                 #7
 ?>
     <head><title>Page de connexion des utilisateurs</title>
-    <link type="text/css" rel="stylesheet" href="../decor/style.css" />
+    <link type="text/css" rel="stylesheet" href="../controler/decor/style.css" />
 
 </head>
 <body id="global">

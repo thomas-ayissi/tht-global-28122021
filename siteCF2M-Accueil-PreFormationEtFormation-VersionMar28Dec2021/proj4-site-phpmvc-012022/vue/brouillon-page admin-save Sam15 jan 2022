@@ -1,28 +1,9 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin</title>
-    <link type="text/css" rel="stylesheet" href="../decor/style.css" />
-</head>
-
-
-<body id="global">
-<div class="container">
+<!--h1><?php include_once "titre_body.php"; ?></h1>
 
 
 
-    <!-- inclusion de l'entête du site -->
-    <?php include_once "header.php"; ?>
-    <br>
-    <br>
-
-    <!-- inclusion de du titre du body du site -->
-    <h1><?php include_once "titre_body.php"; ?></h1>
-
-
-    <?php
+  /*Ajout de cet include en espérant régler le problème des variables undefined sans succes*/
+    <?php include include_once "../data/config.php"
     /* Program: Login_reg.php
     * Desc:    Main application script for the User Login
     *          application. It provides two options: (1) login
@@ -30,12 +11,20 @@
     *          a new user name. User Names and passwords are
     *          stored in a MySQL database.
     */
-    session_start();	                                          #9
+
+    /*session_start();*/
+    /*include('config.php');*/
+    /*$user_name = $_POST['user_name'];*/
+    /*$passwd = $_POST['password'];*/
+
+
+
+
+    #9
     switch (@$_POST['Button'])	                               #10
     {
         case "Login":	                                          #12
-            include("dbstuff.inc");	                              #13
-            $cxn = mysqli_connect($host,$user,$passwd,$dbname)
+            $cxn = mysqli_connect($host="" ,$user="" ,$passwd="" ,$dbname="" )
             or die("Query died: connect");              	#15
             $sql = "SELECT user_name FROM Customer
     WHERE user_name='$_POST[fusername]'";
@@ -213,12 +202,10 @@
             break;                                               	#195
 
         default:                                             	#197
-            include("form_login_reg.inc");
+            include "form_login_reg.inc";
     }  // end switch
     ?>
 
-
-
     <br>
     <br>
     <br>
@@ -260,10 +247,3 @@
     <br>
     <br>
     <br>
-    <!-- inclusion du bas de page du site -->
-    <?php include_once "pied_de_page.php"; ?>
-
-
-
-</body>
-</html>
