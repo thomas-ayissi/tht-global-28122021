@@ -48,7 +48,7 @@ header nav a {
 }
 #content #mainContent p {
 	/* All paragraphs under maincontent */
-	color: rgba(146,146,146,1.00);
+	color: rgb(139, 143, 143);
 	font-family: source-sans-pro, sans-serif;
 	font-style: normal;
 	font-weight: 200;

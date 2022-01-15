@@ -5,35 +5,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Accueil</title>
  <link href="../controler/apparence/styles/ProjetTiStyle.css" rel="stylesheet" type="text/css">
-  <script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/montserrat:n4:default;source-sans-pro:n2:default.js" type="text/javascript"></script>
 </head>
 
 <body>
 <div id="mainwrapper">
-  <header> 
-    <!--**************************************************************************
-    Header starts here. It contains Logo and 3 navigation links. 
-    ****************************************************************************-->
-    <!-- inclusion de l'entête du site -->
-    <?php include_once "header.php"; ?>
-    <br>
-    <br>
-  </header>
-  <div id="content">
-    <div class="notOnDesktop"> 
-      <!-- This search box is displayed only in mobile and tablet laouts and not in desktop layouts -->
-      <input type="text" placeholder="Search">
-    </div>
-    <section id="mainContent"> 
-      <!--************************************************************************
-    Main Blog content starts here
-    ****************************************************************************-->
-      <h1><?php include_once "titre_body.php"; ?></h1>
+    <header>
+        <!--**************************************************************************
+      LE HEADER COMMENCE ICI
+      ****************************************************************************-->
+        <!-- inclusion de l'entête du site -->
+        <?php include_once "header.php"; ?>
+        <br>
+        <br>
 
-        <div id="bannerImage"><img src="../controler/apparence/images/SliderLayerImage.png" alt=""/></div>
+    </header>
+    <div id="content">
+        <div class="notOnDesktop">
+            <!-- boite de recherche visible uniquement sur tablettes et smartphone -->
+            <input type="text" placeholder="Recherche">
+        </div>
+        <section id="mainContent">
+            <!--************************************************************************
+             LE CONTENU GLOBAL DE LA PAGE DE CE SITE PROJET Ti COMMENCE ICI
+          ****************************************************************************-->
+            <h1><?php include_once "titre_body.php"; ?></h1>
+            <h3>Présentation : les données sont le pouvoir !</h3>
 
-      <h2>Présentation : les données sont le pouvoir !</h2>
+        <div id="bannerImage"><img src="../controler/formes/vertPourAccueilBas.png"></div>
 
+            <br>
       <p>Faites un petit test pour voir si vous avez effectivement le contrôle sur les données de votre entreprise.</p>
       <ol>
 
@@ -65,13 +65,13 @@
       <br>
       <br>
 
-        <div id="bannerImage"><img src="../controler/apparence/images/SliderLayerImage.png" alt=""/></div>
-
-      <h2>Réflexion d'ordre médiatique : deux mythes à propos des développeurs</h2>
+        <div id="bannerImage"><img src="../controler/formes/vertPourAccueil.png" alt=""/></div>
+            <br>
+      <h3>Réflexion d'ordre médiatique : deux mythes à propos des développeurs</h3>
 
       <p>Le métier de développeur alimente des fantasmes. Ces derniers produisent des effets sur quasiment toutes les composantes de la société. Il est intéressant de tordre le cou à au moins deux principales idées reçues à propos de ce secteur d’activité.</p>
 
-      <h3>Le numérique n’existe pas en soi !</h3>
+      <h4>Le numérique n’existe pas en soi !</h4>
 
       <p>De nombreux apprenants croient à tort qu’ils vont travailler dans « la tech » ou « dans le numérique ». Les adeptes de cette perception croient, à tort, que développer des sites ou des applications est un secteur en soi. Or « le numérique » est juste un service présent dans toutes les organisations modernes.</p>
       <p>Comprendre que l’on sera un maillon d’un projet qui nous dépasse est vital, car cela évite d’arriver en entreprise en croyant qu’en tant que développeur, l’on va « prendre le pouvoir ».</p>
@@ -79,7 +79,7 @@
       <p>Autrement dit, l’entreprise a besoin de vendre, donc de faire du profit. Ce dernier servant entre autres choses à payer le salaire du développeur et accessoirement à satisfaire ses caprices de diva.</p>
       <p>Pour un développeur qui croit que la priorité est de faire une application « performante » selon les critères de la programmation, découvrir qu’il a l’obligation de réaliser une application qui traque l’utilisateur (afin de l’obliger à payer une licence), qui a une obsolescence programmée (afin que l’utilisateur achète le logiciel suivant) constitue un choc qui réduit en miettes son désir de « régner sur l’entreprise » et sa certitude que l’univers (très complexe) des entreprises gravite autour du seul développeur.</p>
 
-      <h3>Non, les développeurs ne sont pas ultra rares !</h3>
+      <h4>Non, les développeurs ne sont pas ultra rares !</h4>
 
       <p>Le mythe de l’extrême rareté des développeurs revient souvent tant dans les médias que dans les conversations entre développeurs junior en devenir.</p>
       <p>Ce mythe part d’une absence de précision dans le compte-rendu du réel. Les entreprises ne recherchent pas désespérément des développeurs. Les entreprises cherchent des développeurs qualifiés.</p>
@@ -89,47 +89,12 @@
       <p>Pis, tout comme Hazard et Lukaku ont commencé leur carrière en gagnant peu d’argent, les développeurs aussi commencent souvent au SMIC. Cette réalité du marché surprend/choque/dégoûte de nombreux développeurs junior qui croyaient toucher le pactole dès leur premier emploi.</p>
 
       <br>
-      <br>
-      <br>
-      <aside id="authorInfo"> 
-        <!-- The author information is contained here -->
-        <h2>Author Name</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      </aside>
-    </section>
-    <section id="sidebar"> 
-      <!--************************************************************************
-    Sidebar starts here. It contains a searchbox, sample ad image and 6 links
-    ****************************************************************************-->
-      <input type="text" placeholder="Search">
-      <div id="adimage"><img src="../controler/apparence/images/300x250.gif" alt=""/></div>
-      <nav>
-        <ul>
-          <li><a href="#" title="Link">Link1</a></li>
-          <li><a href="#" title="Link">Link2</a></li>
-          <li><a href="#" title="Link">Link3</a></li>
-          <li><a href="#" title="Link">Link4</a></li>
-          <li><a href="#" title="Link">Link5</a></li>
-          <li><a href="#" title="Link">Link6</a></li>
-        </ul>
-      </nav>
-    </section>
-    <footer> 
-      <!--************************************************************************
-    Footer starts here
-    ****************************************************************************-->
-      <article>
-        <h3>Footer1</h3>
-        <!-- inclusion du bas de page du site -->
-        <?php include_once "pied_de_page.php"; ?>
-      </article>
-      <article>
-        <h3>Footer2</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      </article>
-    </footer>
-  </div>
-  <div id="footerbar"><!-- Small footerbar at the bottom --></div>
+
+
+            <!-- inclusion du bas de page du site -->
+            <?php include_once "pied_de_page.php"; ?>
+
+    </div>
 </div>
 </body>
 </html>

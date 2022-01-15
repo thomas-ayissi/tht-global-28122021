@@ -5,35 +5,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Galerie</title>
  <link href="../controler/apparence/styles/ProjetTiStyle.css" rel="stylesheet" type="text/css">
- <script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/montserrat:n4:default;source-sans-pro:n2:default.js" type="text/javascript"></script>
   <!-- Bootstrap -->
   <link href="../controler/decor/pourgalerie/css/bootstrap-4.4.1.css" rel="stylesheet">
 </head>
 
 <body>
 <div id="mainwrapper">
-  <header> 
-    <!--**************************************************************************
-    Header starts here. It contains Logo and 3 navigation links. 
-    ****************************************************************************-->
-    <!-- inclusion de l'entête du site -->
-    <?php include_once "header.php"; ?>
-    <br>
-    <br>
-  </header>
-  <div id="content">
-    <div class="notOnDesktop"> 
-      <!-- This search box is displayed only in mobile and tablet laouts and not in desktop layouts -->
-      <input type="text" placeholder="Search">
-    </div>
-    <section id="mainContent"> 
-      <!--************************************************************************
-    Main Blog content starts here
-    ****************************************************************************-->
-      <h1><!-- Blog title -->Post Title</h1>
-      <h3><!-- Tagline -->SOME AWESOME HERO TAGLINE</h3>
-      <!-- inclusion de du titre du body du site -->
-      <h1><?php include_once "titre_body.php"; ?></h1>
+    <header>
+        <!--**************************************************************************
+      LE HEADER COMMENCE ICI
+      ****************************************************************************-->
+        <!-- inclusion de l'entête du site -->
+        <?php include_once "header.php";?>
+        <br>
+        <br>
+    </header>
+    <div id="content">
+        <div class="notOnDesktop">
+            <!-- boite de recherche visible uniquement sur tablettes et smartphone -->
+            <input type="text" placeholder="Recherche">
+        </div>
+        <section id="mainContent">
+
+            <!--************************************************************************
+                 LE CONTENU GLOBAL DE LA PAGE DE CE SITE PROJET Ti COMMENCE ICI
+              ****************************************************************************-->
+            <h1><?php include_once "titre_body.php"; ?></h1>
+            <h3>Galerie</h3>
+
 
 
       <div class="container mt-3">
@@ -47,34 +46,34 @@
               </ol>
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img class="d-block w-100" src="../controler/decor/pourgalerie/images/1920x500.gif" alt="First slide">
+                  <img class="d-block w-100" src="../controler/formes/caroussel1.png" alt="First slide">
                   <div class="carousel-caption d-none d-md-block">
-                    <h5>Item 1 Heading</h5>
-                    <p>Item 1 Description</p>
+                    <h5>Image 1 Thomas</h5>
+                    <p>Description image 1</p>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block w-100" src="../controler/decor/pourgalerie/images/1920x500.gif" alt="Second slide">
+                  <img class="d-block w-100" src="../controler/formes/caroussel2.png" alt="Second slide">
                   <div class="carousel-caption d-none d-md-block">
-                    <h5>Item 2 Heading</h5>
-                    <p>Item 2 Description</p>
+                    <h5>Image 2 Thomas</h5>
+                    <p>Description image 2</p>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block w-100" src="../controler/decor/pourgalerie/images/1920x500.gif" alt="Third slide">
+                  <img class="d-block w-100" src="../controler/formes/caroussel3.png" alt="Third slide">
                   <div class="carousel-caption d-none d-md-block">
-                    <h5>Item 3 Heading</h5>
-                    <p>Item 3 Description</p>
+                    <h5>Image 3 Thomas</h5>
+                    <p>Description image 3</p>
                   </div>
                 </div>
               </div>
               <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
+                <span class="sr-only">Précédente</span>
               </a>
               <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
+                <span class="sr-only">Suivante</span>
               </a>
             </div>
           </div>
@@ -83,37 +82,37 @@
       </div>
 
       <hr>
-      <h2 class="text-center">UNE PETITE GALERIE</h2>
+      <h2 class="text-center">QUELQUES IMAGES</h2>
       <hr>
       <div class="container">
         <div class="row text-center">
           <div class="col-md-4 pb-1 pb-md-0">
             <div class="card">
-              <img class="card-img-top" src="../controler/decor/pourgalerie/images/400X200.gif" alt="Card image cap">
+              <img class="card-img-top" src="../controler/formes/violetFoncePourCartesGalerie.png" alt="Card image cap">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Add to Cart</a>
+                <h5 class="card-title">Carte 1</h5>
+                <p class="card-text">Chacune de ces cartes vous présente un projet.</p>
+                <a href="#" class="btn btn-primary">En savoir plus</a>
               </div>
             </div>
           </div>
           <div class="col-md-4 pb-1 pb-md-0">
             <div class="card">
-              <img class="card-img-top" src="../controler/decor/pourgalerie/images/400X200.gif" alt="Card image cap">
+              <img class="card-img-top" src="../controler/formes/violetFoncePourCartesGalerie.png" alt="Card image cap">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Add to Cart</a>
+                <h5 class="card-title">Carte 2</h5>
+                <p class="card-text">Chacune de ces cartes vous présente un projet.</p>
+                <a href="#" class="btn btn-primary">En savoir plus</a>
               </div>
             </div>
           </div>
           <div class="col-md-4 pb-1 pb-md-0">
             <div class="card">
-              <img class="card-img-top" src="../controler/decor/pourgalerie/images/400X200.gif" alt="Card image cap">
+              <img class="card-img-top" src="../controler/formes/violetFoncePourCartesGalerie.png" alt="Card image cap">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Add to Cart</a>
+                <h5 class="card-title">Carte 3</h5>
+                <p class="card-text">Chacune de ces cartes vous présente un projet.</p>
+                <a href="#" class="btn btn-primary">En savoir plus</a>
               </div>
             </div>
           </div>
@@ -121,31 +120,31 @@
         <div class="row text-center mt-4">
           <div class="col-md-4 pb-1 pb-md-0">
             <div class="card">
-              <img class="card-img-top" src="../controler/decor/pourgalerie/images/400X200.gif" alt="Card image cap">
+              <img class="card-img-top" src="../controler/formes/violetFoncePourCartesGalerie.png" alt="Card image cap">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Add to Cart</a>
+                <h5 class="card-title">Carte 4</h5>
+                <p class="card-text">Chacune de ces cartes vous présente un projet.</p>
+                <a href="#" class="btn btn-primary">En savoir plus</a>
               </div>
             </div>
           </div>
           <div class="col-md-4 pb-1 pb-md-0">
             <div class="card">
-              <img class="card-img-top" src="../controler/decor/pourgalerie/images/400X200.gif" alt="Card image cap">
+              <img class="card-img-top" src="../controler/formes/violetFoncePourCartesGalerie.png" alt="Card image cap">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Add to Cart</a>
+                <h5 class="card-title">Carte 5</h5>
+                <p class="card-text">Chacune de ces cartes vous présente un projet.</p>
+                <a href="#" class="btn btn-primary">En savoir plus</a>
               </div>
             </div>
           </div>
           <div class="col-md-4 pb-1 pb-md-0">
             <div class="card">
-              <img class="card-img-top" src="../controler/decor/pourgalerie/images/400X200.gif" alt="Card image cap">
+              <img class="card-img-top" src="../controler/formes/violetFoncePourCartesGalerie.png" alt="Card image cap">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Add to Cart</a>
+                <h5 class="card-title">Carte 6</h5>
+                <p class="card-text">Chacune de ces cartes vous présente un projet.</p>
+                <a href="#" class="btn btn-primary">En savoir plus</a>
               </div>
             </div>
           </div>
@@ -161,51 +160,20 @@
       <br>
       <br>
 
-      <aside id="authorInfo"> 
-        <!-- The author information is contained here -->
-        <h2>Author Name</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      </aside>
-    </section>
-    <section id="sidebar"> 
-      <!--************************************************************************
-    Sidebar starts here. It contains a searchbox, sample ad image and 6 links
-    ****************************************************************************-->
-      <input type="text" placeholder="Search">
-      <div id="adimage"><img src="../controler/apparence/images/300x250.gif" alt=""/></div>
-      <nav>
-        <ul>
-          <li><a href="#" title="Link">Link1</a></li>
-          <li><a href="#" title="Link">Link2</a></li>
-          <li><a href="#" title="Link">Link3</a></li>
-          <li><a href="#" title="Link">Link4</a></li>
-          <li><a href="#" title="Link">Link5</a></li>
-          <li><a href="#" title="Link">Link6</a></li>
-        </ul>
-      </nav>
-    </section>
+
     <footer> 
-      <!--************************************************************************
-    Footer starts here
-    ****************************************************************************-->
-      <article>
-        <h3>Footer1</h3>
-        <!-- inclusion du bas de page du site -->
-        <?php include_once "pied_de_page.php"; ?>
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
         <script src="js/jquery-3.4.1.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="js/popper.min.js"></script>
         <script src="js/bootstrap-4.4.1.js"></script>
 
-      </article>
-      <article>
-        <h3>Footer2</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      </article>
-    </footer>
+        <br>
+
+            <!-- inclusion du bas de page du site -->
+            <?php include_once "pied_de_page.php"; ?>
+        </footer>
+
   </div>
-  <div id="footerbar"><!-- Small footerbar at the bottom --></div>
-</div>
 </body>
 </html>

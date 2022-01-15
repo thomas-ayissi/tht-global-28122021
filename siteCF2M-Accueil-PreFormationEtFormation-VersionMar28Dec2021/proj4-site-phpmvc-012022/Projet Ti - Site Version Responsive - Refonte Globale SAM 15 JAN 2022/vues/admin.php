@@ -9,37 +9,34 @@
 
 <body>
 <div id="mainwrapper">
-  <header>
-    <!-- inclusion de l'entête du site -->
-    <?php include_once "header.php";
+    <header>
+        <!--**************************************************************************
+      LE HEADER COMMENCE ICI
+      ****************************************************************************-->
+        <!-- inclusion de l'entête du site -->
+        <?php include_once "header.php"; session_start();?>
+        <br>
+        <br>
+    </header>
+    <div id="content">
+        <div class="notOnDesktop">
+            <!-- boite de recherche visible uniquement sur tablettes et smartphone -->
+            <input type="text" placeholder="Recherche">
+        </div>
+        <section id="mainContent">
 
-    session_start();
-
-
-    ?>
-    <br>
-    <br>
-  </header>
-  <div id="content">
-    <div class="notOnDesktop"> 
-      <!-- Boite de recherche affichée uniquement sur les tablettes et les smartphones-->
-      <input type="text" placeholder="Recherche">
-    </div>
-    <section id="mainContent"> 
-      <!--************************************************************************
-    LE CONTENU GLOBAL DE LA PAGE DE CE SITE PROJET Ti COMMENCE ICI
-    ****************************************************************************-->
-
-      <h1>Admin</h1>
+        <!--************************************************************************
+             LE CONTENU GLOBAL DE LA PAGE DE CE SITE PROJET Ti COMMENCE ICI
+          ****************************************************************************-->
+            <h1><?php include_once "titre_body.php"; ?></h1>
       <h3>Connexion dans l'espace utilisateurs</h3>
-      <div id="bannerImage"><img src="../controler/apparence/images/SliderLayerImage.png" alt=""/></div>
-      <!-- inclusion de l'entête du site -->
-      <?php include_once "header.php"; ?>
-      <br>
+    <br>
+
+      <div id="bannerImage"><img src="../controler/formes/vertPourAdmin.png" alt=""/></div>
+
       <br>
 
-      <!-- inclusion de du titre du body du site -->
-      <h1><?php include_once "titre_body.php"; ?></h1>
+
         <!--************************************************************************
       CONNEXION UTILISATEURS ICI
       ****************************************************************************-->
@@ -63,9 +60,12 @@
             </p>
 
         </form>
+
+        <div id="bannerImage"><img src="../controler/formes/vertPourAdminBas.png" alt=""/></div>
         <!--************************************************************************
       INSCRIPTION UTILISATEURS ICI
       ****************************************************************************-->
+            <br>
    <p>Si vous n'êtes pas encore membre, inscrivez-vous :</p>
    <form method="post" action="mon-script.php"
 enctype="application/x-www-form-urlencoded" name="inscription">

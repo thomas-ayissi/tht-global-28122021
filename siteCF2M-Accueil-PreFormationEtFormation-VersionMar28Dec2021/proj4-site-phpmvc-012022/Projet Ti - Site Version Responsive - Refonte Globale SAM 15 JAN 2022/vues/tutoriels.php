@@ -6,36 +6,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tutoriels</title>
   <link href="../controler/apparence/styles/ProjetTiStyle.css" rel="stylesheet" type="text/css">
-  <script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/montserrat:n4:default;source-sans-pro:n2:default.js" type="text/javascript"></script>
 </head>
 
 <body>
 <div id="mainwrapper">
-  <header> 
-    <!--**************************************************************************
-    Header starts here. It contains Logo and 3 navigation links. 
-    ****************************************************************************-->
-    <!-- inclusion de l'entête du site -->
-    <?php include_once "header.php"; ?>
-    <br>
-    <br>
+    <header>
+        <!--**************************************************************************
+      LE HEADER COMMENCE ICI
+      ****************************************************************************-->
+        <!-- inclusion de l'entête du site -->
+        <?php include_once "header.php";?>
+        <br>
+        <br>
+    </header>
+    <div id="content">
+        <div class="notOnDesktop">
+            <!-- boite de recherche visible uniquement sur tablettes et smartphone -->
+            <input type="text" placeholder="Recherche">
+        </div>
+        <section id="mainContent">
 
-  </header>
-  <div id="content">
-    <div class="notOnDesktop"> 
-      <!-- This search box is displayed only in mobile and tablet laouts and not in desktop layouts -->
-      <input type="text" placeholder="Search">
-    </div>
-    <section id="mainContent"> 
-      <!--************************************************************************
-    Main Blog content starts here
-    ****************************************************************************-->
-      <h1><!-- Blog title -->Post Title</h1>
-      <!-- inclusion de du titre du body du site -->
-      <h1><?php include_once "titre_body.php"; ?></h1>
+            <!--************************************************************************
+                 LE CONTENU GLOBAL DE LA PAGE DE CE SITE PROJET Ti COMMENCE ICI
+              ****************************************************************************-->
+            <h1><?php include_once "titre_body.php"; ?></h1>
+            <h3>Comparaison de tutoriels</h3>
 
-        <div id="bannerImage"><img src="../controler/apparence/images/SliderLayerImage.png" alt=""/></div>
-      <h2>Comparaison de tutoriels</h2>
+        <div id="bannerImage"><img src="../controler/formes/violetPourTutoriel.png" alt=""/></div>
+            <br>
 
       <p>Les deux tutoriels comparés ici concernent le sujet numéro 24 dans les termes de référence (TDR) du projet Ti. Le sujet 24 porte le titre « PHP/MySQL : comment réaliser une page en PHP avec une connexion à une base de données via mySQLi ».
         Les deux tutoriels comparés sont :
@@ -50,7 +48,36 @@
   </div>
   </ol>
 
-  <h3>Tutoriel un : vidéo courte et percutante</h3>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+  <h4>Tutoriel un : vidéo courte et percutante</h4>
 
   <p>Le premier tutoriel est une vidéo YouTube de 15 minutes. Il présente quelques limites et certains avantages.
     Son principal point négatif est qu’il est un tutoriel vidéo. Autrement dit, il faut souvent mettre la vidéo sur pause pour noter le code rédigé par la personne faisant la présentation. L’autre limite de ce tutoriel est qu’il insiste sur les limites de l’extension MySQLi.</p>
@@ -58,15 +85,19 @@
   <p>D’abord, il « fait le job » comme l’on dit communément. En suivant les instructions données nous avons réussi à connecter un script PHP d’une de nos pages à une base de données.</p>
   <p>Ensuite, ce tutoriel est résumé, ce qui est important. Un quart d’heure, pas plus ! La vidéo va droit au but sans circonvolutions.</p>
   <p>Enfin, fait rare, cette vidéo ne commence pas par inciter l’internaute qui la visionne à s’abonner à la chaine YouTube de l’auteur et activer les notifications afin de rien rater des nouveautés. Les personnes agacées par « l’auto promotion » récurrente sur les chaines YouTube apprécieront ce tutoriel ne serait-ce que pour cette raison.</p>
-
-  <h3>Tutoriel deux : trois contenus pour le prix d’un !</h3>
+    <br>
+    <br>
+    <br>
+  <h4>Tutoriel deux : trois contenus pour le prix d’un !</h4>
   Le second tutoriel est de type composite. En effet, il a une structure ternaire : texte explicatif, lignes de code et vidéo tout en bas de page.
   Les développeurs ayant la charmante réputation d’aimer les solutions facilitant la vie des internautes et éventuellement la leur, ils apprécieront le fait d’avoir juste à faire « Ctrl+C » et « Ctrl+V » pour respectivement copie et coller le code de ce tutoriel.</p>
   <p>Ce tutoriel a au moins deux points faibles.</p>
   <p>D’une part, la vidéo qu’il contient est longue (55 minutes).</p>
   <p>D’autre part, ce tutoriel contient plein d’informations globales. Ces dernières sont utiles, mais éloignent parfois l’utilisateur du sujet principal qui est la connexion à la base de données en utilisant MySQLi.</p>
-
-  <h3>Lequel devez-vous choisir ?</h3>
+    <br>
+    <br>
+    <br>
+  <h4>Lequel devez-vous choisir ?</h4>
   <p>Chacun de ces tutoriels a des avantages. En fait, aucun n’est réellement médiocre. Cependant, chacun correspondra à un profil précis.</p>
   <p>Ainsi, si vous avez rapidement besoin de la procédure de connexion à une base de données en utilisant MySQLi, alors optez pour le premier tutoriel.</p>
   <p>En revanche, si vous avez du temps et que vous désirez comprendre globalement les connexions entre vos pages PHP et les bases de données, alors choisissez le second tutoriel.</p>
@@ -74,50 +105,15 @@
 
 
 
+    </section>
 
 
-  <br>
-  <br>
-  <br>
-      <aside id="authorInfo"> 
-        <!-- The author information is contained here -->
-        <h2>Author Name</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      </aside>
-    </section>
-    <section id="sidebar"> 
-      <!--************************************************************************
-    Sidebar starts here. It contains a searchbox, sample ad image and 6 links
-    ****************************************************************************-->
-      <input type="text" placeholder="Search">
-      <div id="adimage"><img src="../controler/apparence/images/300x250.gif" alt=""/></div>
-      <nav>
-        <ul>
-          <li><a href="#" title="Link">Link1</a></li>
-          <li><a href="#" title="Link">Link2</a></li>
-          <li><a href="#" title="Link">Link3</a></li>
-          <li><a href="#" title="Link">Link4</a></li>
-          <li><a href="#" title="Link">Link5</a></li>
-          <li><a href="#" title="Link">Link6</a></li>
-        </ul>
-      </nav>
-    </section>
-    <footer> 
-      <!--************************************************************************
-    Footer starts here
-    ****************************************************************************-->
-      <article>
-        <h3>Footer1</h3>
-        <!-- inclusion du bas de page du site -->
+    <br>
+
+    <footer>
         <?php include_once "pied_de_page.php"; ?>
-      </article>
-      <article>
-        <h3>Footer2</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      </article>
     </footer>
-  </div>
-  <div id="footerbar"><!-- Small footerbar at the bottom --></div>
+
 </div>
 </body>
 </html>
