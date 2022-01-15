@@ -7,7 +7,9 @@
 <br>
 <br>
 <br>
-<div id="logo"><img src="logo_thomas.png" alt="logo_thomas"></div>
+<header id="mainwrapper">
+<div id="logo"><img class="logothomas" src="logo_thomas.png" alt="logo_thomas"></div>
+
 <br>
 <br>
 <!--nav id="header">
@@ -24,7 +26,7 @@
         </ul>
     </div-->
         <nav id="header" class="nav nav-pills flex-column flex-sm-row">
-            <a class="nav-link active" href="?pg=homepage">Accueil</a>
+            <a class="nav-link" href="?pg=homepage">Accueil</a>
             <a class="nav-link" href="?pg=galerie">Galerie</a>
             <a class="nav-link" href="?pg=liens">Liens</a>
             <a class="nav-link" href="?pg=tutoriels">Tutoriels</a>
@@ -32,7 +34,7 @@
             <a class="nav-link" href="?pg=admin">Admin</a>
             <a class="nav-link" href="?pg=cv">CV</a>
         </nav>
-
+</header>
 
         <!--div class="dropdown">
             <button class="btn btn-primary dropdown-toggle"

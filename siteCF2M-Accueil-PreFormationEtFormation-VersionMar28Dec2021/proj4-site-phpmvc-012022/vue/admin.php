@@ -174,7 +174,7 @@
             } // end if errors are found                        	#153
 
             /* check to see if user name already exists */
-            include("dbstuff.inc");	                             #156
+            include("config.php");	                             #156
             $cxn = mysqli_connect($host,$user,$passwd,$dbname)
             or die("Couldn't connect to server");
             $sql = "SELECT user_name FROM Customer
