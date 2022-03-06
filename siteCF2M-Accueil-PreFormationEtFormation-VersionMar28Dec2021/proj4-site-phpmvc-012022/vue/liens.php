@@ -21,7 +21,7 @@
     <!-- inclusion de du titre du body du site -->
     <h1><?php include_once "titre_body.php"; ?></h1>
 
-
+    <h2
     <br>
     <br>
     <br>
