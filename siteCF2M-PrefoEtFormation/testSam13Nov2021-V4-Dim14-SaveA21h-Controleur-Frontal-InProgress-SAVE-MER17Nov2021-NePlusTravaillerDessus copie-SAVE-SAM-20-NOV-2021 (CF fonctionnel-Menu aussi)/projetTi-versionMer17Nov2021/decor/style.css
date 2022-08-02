@@ -1,0 +1,74 @@
+
+body {
+      background-image: url("matiere_blache.jpeg");
+      margin-left: auto;
+      margin-right: auto;
+      font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* Zone globale */
+#global {
+      width:1280px;
+      margin: 3% 7% 3% 7%;
+
+}
+
+#logo{
+      text-align: center;
+}
+
+
+#header {
+      width: 1280px;
+      height: auto;
+      border-radius: 10px;
+      top: 1px;
+      position: page;
+      text-transform: uppercase;
+      opacity: 100%;
+      text-align: center;
+}
+
+h1 {
+      text-align: center;
+}
+
+
+
+
+#menu li {
+      list-style-type:none;
+      list-style-position:inside;
+}
+
+
+#menu a {
+      float:left;
+      display:block;
+      text-decoration: none;
+      text-align:center;
+      width:160px;
+      height:50px;
+      line-height:50px;
+      background-color:#CCC;
+      color: black;
+      font-family: Arial,sans-serif;
+      font-weight: bold;
+      font-size:1em;
+}
+
+#menu a:hover {
+      background-color: darkblue;
+      color: white;
+}
+
+
+
+
+#bas a{
+      display:block;
+      text-decoration: none;
+      text-align:center;
+}

@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="style.css" rel="stylesheet" type="text/css">
+<title>Lisbonne - Contact</title>
+</head>
+<body>
+
+<!--DIV GLOBALE AVEC LA CLASSE CONTAINER. CETTE DIV CONTIENT TOUTE LA PAGE.Intérieur avec argeur fixe de 1280pixels. Taille de toutes les pages.
+    Les 1280 pixels s'affichent sur un fond blanc.-->  
+<div id="global">
+    
+ 
+    
+<!--HEADER ENTETE DE LA PAGE CONTENANT L'IMAGE-->
+  <header class="entete"> 
+    <img src="images/banniere.jpg" width="1280" height="511" alt="lisbonne-la-nuit"/>
+  </header>    
+    
+    
+    
+<!--BARRE DE NAVIGATION-->
+<div class="barre_menu_rouge">
+    <nav id="menu">
+          <ul>
+                 <li><a href="index.html">Accueil</a></li>
+                 <li><a href="geographie.html">Géographie</a></li>
+                 <li><a href="histoire.html">Histoire</a></li>
+                 <li><a href="culture.html">Culture</a></li>
+                 <li><a href="galerie.html">Galerie</a></li>
+                 <li><a href="contact.html">Contact</a></li>
+                 <li><a href="liens.html">Liens</a></li>
+          </ul>
+    </nav>
+</div>
+    
+<!--MAIN CONTENU GLOBAL DE LA PAGE-->
+   <main>
+    
+
+
+<!--IMAGE PAGE CONTACT-->
+    <div class="entete">
+       <img src="images/contacts.jpg" width="640" height="160" alt=""/>
+    </div>
+       
+<!--FORMULAIRE DE CONTACT--> 
+       
+                <h1>Pour nous contacter</h1>
+                <p class="entete"><img src="" /></p>
+                <h3 class="entete">Pour nous laisser un commentaire ou pour obtenir un renseignement complémentaire, remplissez le formulaire ci-dessous :</h3>
+
+                <form id="form1" name="form1" method="post" action="" class="contact">
+                    <div><label for="frm1_nom">NOM : </label><input name="nom" type="text" id="frm1_nom" size="50" /></div>
+                    <div><label for="frm1_prenom">PRENOM : </label><input name="prenom" type="text" id="frm1_prenom" size="50" /></div>
+                    <div><label for="frm1_ville">VILLE : </label><input name="ville" type="text" id="frm1_ville" size="50" /></div>
+                    <div><label for="frm1_email">E-MAIL : </label><input name="email" type="email" id="frm1_email" size="50" /></div>
+                    <div><label for="frm1_message">COMMENTAIRES : </label><textarea name="message" id="frm1_message" cols="40" rows="5"></textarea></div>
+                    <div><input type="submit" id="frm1_submit" value="Envoyer votre message" /></div>
+                </form>
+    </main>
+       
+    
+    
+<!--FOOTER PIED DE LA PAGE-->
+   <footer class="pied-page">
+       
+<!--LIEN VERS MENU PERMETTANT DE REMONTER DANS LA PAGE Sur chaque page c'est le lien de la page-->     
+       <li><a class="retour_top" href="contact.html">Contact</a></li>  
+       
+       
+  </footer>
+
+
+</body>
+</html>
